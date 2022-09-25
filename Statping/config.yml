@@ -1,0 +1,14 @@
+connection: sqlite3
+language: en
+allow_reports: true
+location: /app
+sqlfile: /app/statping.db
+letsencrypt_host: status.lucasnet.org
+letsencrypt_email: webmaster@lucasnet.org
+disable_http: false
+demo_mode: false
+disable_logs: false
+use_assets: true
+sample_data: false
+use_cdn: false
+disable_colors: false
