@@ -1,3 +1,6 @@
 # Remotely
 
-docker run --env=ASPNETCORE_URLS=http://*:5000 --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_VERSION=6.0.13 --env=ASPNET_VERSION=6.0.13 --env=ASPNETCORE_ENVIRONMENT=Production --volume=/var/www/remotely:/remotely-data --volume=/remotely-data --workdir=/app -p 5000:5000 --restart=unless-stopped -d immybot/remotely:latest
+# https://hub.docker.com/r/immybot/remotely
+
+
+# docker run --env=ASPNETCORE_URLS=http://*:5000 --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_VERSION=6.0.13 --env=ASPNET_VERSION=6.0.13 --env=ASPNETCORE_ENVIRONMENT=Production --volume=/var/www/remotely:/remotely-data --volume=/remotely-data --workdir=/app -p 5000:5000 --restart=unless-stopped -d immybot/remotely:latest
